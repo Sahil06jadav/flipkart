@@ -12,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     height: 65px;
-    width: 100%;
+    width: 100vw;
 
 }
 #firstline{
@@ -110,7 +110,7 @@ footer{
     display: flex;
     margin-bottom: 20px;
     height: 125px;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: white;
 }
 #d12{
@@ -285,13 +285,13 @@ footer{
     justify-content: space-between;
 }
 #d22{
-    width: 230px;
+    width: 15vw;
     background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1060/1620/image/ce3cf81edb760559.jpg?q=60);
     background-size: cover;
     background-position: center;
 }
 #d21{
-    width: 1250px;
+    width: 85vw;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -372,7 +372,7 @@ footer{
 }
 #d15{
     display: flex;
-    width: 1490px;
+    width: 98.5vw;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
