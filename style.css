@@ -1,0 +1,446 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+}
+#dmain{
+    display: flex;
+    flex-direction: row;
+}
+#d1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+
+}
+#firstline{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(27, 27, 255);
+}
+#secondline{
+    display: flex;
+}
+#explore{
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+    font-weight: 700;
+}
+#plus{
+    margin-left: 4px;
+    font-size: 12px;
+    font-style: italic;
+    color: orange;
+    font-weight: 700;
+}
+#searchbox{
+    margin-left: 45px;
+    display: flex;
+    background-color: rgb(229, 226, 243);
+    height: 35px;
+    width: 750px;
+    align-items: center;
+    border-radius: 10px;
+}
+#t1{
+    background-color: rgb(229, 226, 243);
+    width: 458.65px;
+    height: 100%;
+    border: 0;
+}
+#searchicon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#flipkartlogo{
+    margin-left: 90px;
+}
+#login{
+    margin-left: 28px;
+    width: 100px;
+    display: flex;
+}
+#logint{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+#cart{
+    display: flex;
+    margin-left: 40px;
+}
+#cartt{
+    margin-left: 10px;
+}
+#become{
+    display: flex;
+    margin-left: 40px;
+}
+#becomet{
+    margin-left: 10px;
+}
+#dots{
+    margin-left: 60px;
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+main{
+    margin: 10px 15px 0 15px;
+}
+body{
+    background-color: rgba(225, 219, 219, 0.604);
+    margin: 0;
+}
+footer{
+    background-color: #2e0d99;
+}
+#maind1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#d11{
+    display: flex;
+    margin-bottom: 20px;
+    height: 125px;
+    justify-content: center;
+    background-color: white;
+}
+#d12{
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    animation: imageanimate 50s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s infinite ;
+}
+.imagetext{
+    display: flex;
+    flex-direction: column;
+    padding: 13px 20px 0 20px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+.imt{
+    padding-top: 5px;
+    font-size: 14px;
+    align-self: center;
+}
+.im11{
+    margin-top: 10px;
+    display: flex;
+    height: 95px;
+    width: 40px ;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.im12{
+    margin-top: 10px;
+    display: flex;
+    height: 95px;
+    width: 40px ;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+#d1e{
+    background-color: white;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#ldiv1{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 20px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+
+}
+#ldiv2{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 20px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 10s;
+}
+#ldiv3{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 20s;
+}
+#ldiv4{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 30s;
+}
+#ldiv5{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 40s;
+}
+#ldiv6{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 50s;
+}
+#ldiv7{
+    background-color: rgba(225, 219, 219, 0.604);
+    height: 5px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+    animation-name: barl;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 60s;
+    
+}
+
+@keyframes imageanimate{
+    0%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/ff79341b24d091cd.jpg?q=60);
+    }
+    22%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/05c9066df38688f4.jpeg?q=60);
+    }
+    43%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/74f0ad81e44e6e6f.jpg?q=60);
+    }
+    69%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/1558a721300c7f6d.jpg?q=60);
+    }
+    85%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/78c3cfa787e8acbe.jpg?q=60);
+    }
+    100%{
+        background-image: url(https://rukminim1.flixcart.com/fk-p-flap/3240/540/image/ff79341b24d091cd.jpg?q=60);
+    }
+
+}
+@keyframes barl{
+    0%{
+        width: 20px;
+        rgba:(225, 219, 219, 0.604);
+    }
+    50%{
+        width: 80px;
+        background-color: black;
+    }
+    100%{
+        width: 20px;
+        rgba:(225, 219, 219, 0.604);
+}
+}
+#d13{
+    height: 340px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#d22{
+    width: 230px;
+    background-image: url(https://rukminim2.flixcart.com/fk-p-flap/1060/1620/image/ce3cf81edb760559.jpg?q=60);
+    background-size: cover;
+    background-position: center;
+}
+#d21{
+    width: 1250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#d221{
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#d222{
+    height: 244px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d02{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+}
+.q1{
+    height: 152px;
+    width: 152px;
+    align-self: center;
+    object-fit: fill;
+}
+.q2{
+    margin-top: 15px;
+    align-self: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.q3{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.img152{
+    height: 152px;
+    width: 152px;
+    object-fit: contain;
+}
+#d14{
+    height: 340px;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#d331{
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#d332{
+    display: flex;
+}
+.d31{
+    height: 244px;
+    width: 14.28%;
+    padding: 12px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.d3l1{
+    height: 20px;
+    font-size: 14px;
+}
+.d3l2{
+    height: 20px;
+    font-size: 15px;
+    font-weight: 550;
+}
+#d15{
+    display: flex;
+    width: 1490px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.d51{
+    display: flex;
+    flex-direction: column;
+    width: 32.7%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.d5l1{
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+    margin-left: 30px;
+}
+.d51r{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.d52r{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.innerbox{
+    width: 50%;
+    height: 289.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-style: double;
+    border-width: 1px;
+    margin: 5px;
+    border-color: rgb(215, 213, 213);
+    border-radius: 5px;
+}
+.image183{
+    height: 183px;
+    width: 183px;
+    object-fit: contain;
+}
+.firl{
+    height: 24px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.secl{
+    height: 24px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(21, 141, 21);
+    font-weight: 600;
+}
+.img{
+    align-self: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+#ending{
+    font-size: 24px;
+    color: white;
+}
